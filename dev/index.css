@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Poppins';
-  src: "../assets/font/Poppins/Poppins-ExtraBold.ttf";
+  src: "./assets/font/Poppins/Poppins-ExtraBold.ttf";
 }
 
 @font-face {
   font-family: 'Poppin';
-  src: "../assets/font/Poppins/Poppins-Regular.ttf";
+  src: "./assets/font/Poppins/Poppins-Regular.ttf";
 }
 
 .nav-top {
@@ -30,7 +30,7 @@
 }
 
 body {
-  background: url("../assets/cool-background.png");
+  background: url("./assets/cool-background.png");
 }
 
 .socmed-icon {
