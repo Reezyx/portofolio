@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Poppins';
+  src: "../assets/font/Poppins/Poppins-ExtraBold.ttf";
+}
+
+@font-face {
+  font-family: 'Poppin';
+  src: "../assets/font/Poppins/Poppins-Regular.ttf";
+}
+
+.nav-top {
+  background-color: #423e3b;
+}
+
+.content-nav {
+  color: #F0F7F4 !important;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 14pt;
+  margin-right: 5px;
+}
+
+.content-nav:hover {
+  color: #767b79 !important;
+}
+
+.content-nav:active {
+  color: #fea82f !important;
+  text-decoration: none;
+}
+
+body {
+  background: url("../assets/cool-background.png");
+}
+
+.socmed-icon {
+  color: #423e3b;
+}
+
+.socmed-icon:hover {
+  color: #767b79;
+}
+
+.profile-photo {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.content-greetings {
+  font-family: 'Poppin';
+  font-size: 20pt;
+}
+
+.content-name {
+  font-family: 'Poppins';
+  font-size: 25pt;
+}
+
+.content-desc {
+  font-family: 'Poppin';
+  font-size: 16pt;
+  text-align: justify;
+}
+
+.header-page-two {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+/* .page-two {
+  border: 2px solid black;
+}
+
+.header-page-two {
+  border: 2px solid black;
+} */
+
+.page-experience {
+  background-color: #423e3b;
+  border-radius: 5px;
+}
+
+.experience-text {
+  font-family: 'Poppins';
+  color: #ffffff;
+}
