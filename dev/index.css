@@ -8,6 +8,16 @@
   src: "./assets/font/Poppins/Poppins-Regular.ttf";
 }
 
+@font-face {
+  font-family: 'Noto';
+  src: "./assets/font/Noto_Sans/NotoSans-Regular.ttf";
+}
+
+@font-face {
+  font-family: 'Patua';
+  src: "./assets/font/Patua_One/PatuaOne-Regular.ttf";
+}
+
 .nav-top {
   background-color: #423e3b;
 }
@@ -96,4 +106,37 @@ body {
 .experience-text {
   font-family: 'Poppins';
   color: #ffffff;
+}
+
+.block {
+  margin-bottom: 1.3cm !important;
+}
+
+@media (max-width : 768px) {
+  .content-experience {
+    font-size: 17pt !important;
+    text-align: center !important;
+    margin-top: -10px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.place-edu {
+  font-family: 'Poppins';
+  color: #FEA82F;
+  font-weight: bold;
+  font-size: 17pt;
+}
+
+.departement-edu {
+  font-family: 'Patua';
+  font-size: 16pt;
+  color: #F0F7F4;
+  font-weight: bold;
+}
+
+.type-edu {
+  font-family: 'Noto';
+  font-size: 15pt;
+  color: #F0F7F4;
 }
