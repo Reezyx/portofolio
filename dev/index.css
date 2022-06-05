@@ -135,6 +135,13 @@ body {
   .icons {
     text-align: center;
   }
+
+  .desc-project {
+    color: #161616;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 10pt;
+  }
 }
 
 .place-edu {
