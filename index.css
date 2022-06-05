@@ -58,8 +58,7 @@ body {
 
 .socmed-icon {
   color: #423e3b;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-right: 40px;
 }
 
 .socmed-icon:hover {
@@ -126,6 +125,11 @@ body {
     font-size: 25pt;
     font-weight: bold;
     text-align: center;
+  }
+
+  .socmed-icon {
+    color: #423e3b;
+    margin-right: 25px;
   }
 }
 
