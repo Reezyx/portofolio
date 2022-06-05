@@ -131,6 +131,10 @@ body {
     color: #423e3b;
     margin-right: 19px;
   }
+
+  .icons {
+    text-align: center;
+  }
 }
 
 .place-edu {
