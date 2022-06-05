@@ -139,7 +139,7 @@ body {
   .desc-project {
     color: #161616;
     font-family: 'Poppins';
-    text-align: center;
+    text-align: center !important;
     font-size: 10pt;
   }
 }
