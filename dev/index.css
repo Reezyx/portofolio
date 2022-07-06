@@ -58,8 +58,7 @@ body {
 
 .socmed-icon {
   color: #423e3b;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-right: 40px;
 }
 
 .socmed-icon:hover {
@@ -80,6 +79,7 @@ body {
 .content-name {
   font-family: 'Poppins';
   font-size: 25pt;
+  font-weight: bold;
 }
 
 .content-desc {
@@ -119,6 +119,29 @@ body {
     margin-top: -10px !important;
     margin-bottom: 20px !important;
   }
+
+  .content-name {
+    font-family: 'Poppins';
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .socmed-icon {
+    color: #423e3b;
+    margin-right: 19px;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+  .desc-project {
+    color: #161616;
+    font-family: 'Poppins';
+    text-align: center !important;
+    font-size: 10pt;
+  }
 }
 
 .place-edu {
@@ -139,4 +162,39 @@ body {
   font-family: 'Noto';
   font-size: 15pt;
   color: #F0F7F4;
+}
+
+.card-project {
+  background-color: #616463;
+  border-radius: 5px;
+}
+
+.card-project:hover {
+  background-color: #737975;
+}
+
+.header-project {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 15pt;
+  color: #FEA82F;
+}
+
+.position-project {
+  color: #F0F7F4;
+  font-family: 'Nunito';
+  font-size: 12pt;
+}
+
+.tech-stack {
+  color: #F0F7F4;
+  font-family: 'Patua';
+  font-size: 12pt;
+}
+
+.desc-project {
+  color: #161616;
+  font-family: 'Poppins';
+  text-align: justify;
+  font-size: 10pt;
 }
