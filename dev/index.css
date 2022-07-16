@@ -34,7 +34,7 @@
   color: #767b79 !important;
 }
 
-.content-nav:active {
+.nav-active {
   color: #fea82f !important;
   text-decoration: none;
 }
@@ -167,6 +167,7 @@ body {
 .card-project {
   background-color: #616463;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .card-project:hover {
@@ -197,4 +198,8 @@ body {
   font-family: 'Poppins';
   text-align: justify;
   font-size: 10pt;
+}
+
+.horizontal-scroll{
+  -webkit-overflow-scrolling: touch;
 }
