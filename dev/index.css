@@ -39,6 +39,10 @@
   text-decoration: none;
 }
 
+.nav-pills{
+  color: #fea82f !important;
+}
+
 body {
   background: url("./assets/cool-background.png");
 }
