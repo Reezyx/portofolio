@@ -48,8 +48,11 @@ body {
 }
 
 .page-one {
-  padding-top: 1.85cm !important;
-  /* border: 2px solid black; */
+  padding-top: 2cm !important;
+}
+
+.picture{
+  margin-top: 40px !important;
 }
 
 .list {
@@ -116,6 +119,7 @@ body {
   margin-bottom: 1.3cm !important;
 }
 
+
 @media (max-width : 768px) {
   .content-experience {
     font-size: 17pt !important;
@@ -181,27 +185,27 @@ body {
 .header-project {
   font-family: 'Poppins';
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 17pt;
   color: #FEA82F;
 }
 
 .position-project {
   color: #F0F7F4;
   font-family: 'Nunito';
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .tech-stack {
   color: #F0F7F4;
   font-family: 'Patua';
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .desc-project {
   color: #161616;
   font-family: 'Poppins';
   text-align: justify;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .horizontal-scroll{
