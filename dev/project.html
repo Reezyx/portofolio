@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta author="Rudiansyah Wijaya Pratama">
+  <link rel="icon" href="./assets/icon.ico" sizes="200x200">
+  <link rel="stylesheet" href="./index.css?v=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Reezyx Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-top fixed-top" id="navbar-scroll">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/report.png" height="35px" alt=""></a>
+      <a class="navbar-toggler list" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link content-nav home" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link content-nav skills" href="skills.html">Skills</a>
+          </li>
+          <li class=" nav-item mx-2">
+            <a class="nav-link content-nav experience" href="experience.html">Experience</a>
+          </li>
+          <li class=" nav-item mx-2">
+            <a class="nav-link content-nav project nav-active" href="">Project</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class=" container-fluid scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-scroll"
+    data-bs-offset="0" tabindex="0">
+    <div class="" id="home"></div>
+    <div class="row px-5">
+      <div class="block" id="project"></div>
+      <div class="col-sm-12 py-4 text-center">
+        <div class="col-sm-4 offset-sm-4">
+          <h2 class="header-page-two py-2">RECENT PROJECTS</h2>
+        </div>
+      </div>
+      <div class="col-sm-12 page-experience mb-3">
+        <div class="row align-items-center my-2 mx-2 horizontal-scroll">
+          <div class="col-sm-3 my-3 text-center">
+            <a href="https://tenageer-rg.netlify.app/" class="">
+              <div class="card-project py-1">
+                <img src="./assets/icon/teenager.png" alt="" width="90%">
+                <h3 class="header-project">
+                  Teenager
+                </h3>
+                <h5 class="position-project">Back-End Developer</h5>
+                <h6 class="tech-stack">Tech Stack: GO with Gin Framework</h6>
+                <p class="desc-project px-2">
+                  Teenager is a Learning Management System targeted for people with disabilities so they can
+                  continue
+                  their online teaching and learning activities.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3 my-3 text-center">
+            <a href="http://reezyx.netlify.app" class="">
+              <div class="card-project py-1">
+                <img src="./assets/icon/report.png" alt="" width="90%">
+                <h3 class="header-project">
+                  Reezyx Portfolio
+                </h3>
+                <h5 class="position-project">Full-Stack Developer</h5>
+                <h6 class="tech-stack">Tech Stack: HTML, CSS, Javascript</h6>
+                <p class="desc-project px-2">
+                  Reezyx Portfolio is a Portfolio Website created by me to make my online resume which
+                  contain my
+                  personal information and some experience that have done before.
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- <div class="col-sm-3 my-3 text-center">
+            <div class="card-project py-1">
+              <a href="http://reezyx.github.io/se-be6-Kelompok4/" class="">
+                <img src="./assets/icon/snake.png" alt="" width="180" height="180">
+              </a>
+              <h3 class="header-project">
+                Snake Game
+              </h3>
+              <h5 class="position-project">Product Manager</h5>
+              <h6 class="tech-stack">Tech Stack: HTML, CSS, Javascript</h6>
+              <p class="desc-project px-2">
+                Snake Game is a game created by our team to complete our task at Ruangguru bootcamp and our other goal
+                is to be
+                played by as many people.
+              </p>
+            </div>
+          </div> -->
+          <div class="col-sm-3 my-3 text-center">
+            <a href="http://infotechappsite.herokuapp.com" class="">
+              <div class="card-project py-1">
+                <img src="./assets/icon/infoapp.png" alt="" width="90%">
+                <h3 class="header-project">
+                  Infotech Appsite
+                </h3>
+                <h5 class="position-project">Front-End Developer</h5>
+                <h6 class="tech-stack">Tech Stack: ReactJS, CSS</h6>
+                <p class="desc-project px-2">
+                  Infotech Appsite is a Tech QnA Webstie created by our team as a forum to share information
+                  about
+                  technology for answer other people's question.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3 my-3 text-center">
+            <a href="https://infotechshop.herokuapp.com" class="">
+              <div class="card-project py-1">
+                <img src="./assets/icon/infoshop.png" alt="" width="90%">
+                <h3 class="header-project">
+                  Infotech Shop
+                </h3>
+                <h5 class="position-project">Front-End Developer</h5>
+                <h6 class="tech-stack">Tech Stack: ReactJS, CSS</h6>
+                <p class="desc-project px-2">
+                  Infotech Shop is a Technology E-Commerce Website created by our team to make it easier for
+                  others to buy
+                  goods online
+                  without having to visit the shop
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
