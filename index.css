@@ -47,8 +47,54 @@ body {
   background: url("./assets/cool-background.png");
 }
 
+@media (min-width: 768px) and (max-width: 1900px) {
 .page-one {
-  padding-top: 2cm !important;
+  padding-top: 4cm !important;
+  padding-bottom: 3cm !important;
+}
+
+.content{
+  margin-top: 1cm !important;
+}
+}
+
+@media (min-width: 1901px) {
+.page-one {
+  padding-top: 5.4cm !important;
+  padding-bottom: 4.6cm !important;
+}
+
+.content{
+  margin-top: 1cm !important;
+}
+
+.content-greetings{
+  font-size: 30pt !important;
+}
+
+.content-name{
+  font-size: 34pt !important;
+}
+
+.content-desc{
+  font-size: 24pt !important;
+}
+}
+
+@media (max-width: 768px) {
+.page-one {
+  padding-top: 1cm !important;
+  padding-bottom: 1cm !important;
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+
+.content-greetings {
+  font-family: 'Poppin';
+  font-size: 20pt;
+  text-align: center !important;
+  margin-top: 0.5cm !important;;
+}
 }
 
 .picture{
@@ -74,8 +120,6 @@ body {
 
 .profile-photo {
   margin-top: 2.5px;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px -5px 5px #222);
 }
 
 .content-greetings {
