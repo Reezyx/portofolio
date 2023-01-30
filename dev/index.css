@@ -43,25 +43,46 @@
   color: #fea82f !important;
 }
 
+.footer-text{
+  font-family: 'Poppins';
+  font-weight: normal;
+}
+
+footer {
+  position: absolute;
+  /* bottom: 0 !important; */
+  width: 100%;
+  left: 0;
+  height: 50px;
+}
+
 body {
   background: url("./assets/cool-background.png");
 }
 
 @media (min-width: 768px) and (max-width: 1900px) {
 .page-one {
-  padding-top: 4cm !important;
-  padding-bottom: 3cm !important;
+  padding-top: 3cm !important;
+  padding-bottom: 2.87cm !important;
 }
 
 .content{
   margin-top: 1cm !important;
 }
+
+.head-page-three{
+  padding: 25px 0px 8px;
+}
+
+#project{
+  margin-top: 2px;
+}
 }
 
 @media (min-width: 1901px) {
 .page-one {
-  padding-top: 5.4cm !important;
-  padding-bottom: 4.6cm !important;
+  padding-top: 5cm !important;
+  padding-bottom: 3.45cm !important;
 }
 
 .content{
@@ -79,14 +100,88 @@ body {
 .content-desc{
   font-size: 24pt !important;
 }
+
+.skill .row .col-sm-2 .image-skill{
+  height: 150px;
+  width: 150px;
+}
+
+.page-skill{
+  /* padding-top: 10px; */
+  margin: 30px 0px 43px !important;
+}
+
+.page-experience{
+  margin: 26px 0px 45px !important;
+  padding: 20px 0px 20px;
+}
+
+.page-project{
+  margin: 30px 0px 45px !important;
+  padding: 20px 0px 20px;
+}
+
+.experience-text {
+  padding-top: 5px;
+}
+
+.header-page-two {
+  margin: 20px 0px 17px;
+  border: 2px solid black;
+}
+
+.header-page-three {
+  margin: 40px 0px 17px;
+  border: 2px solid black;
+}
+
+.page-experience > .row > div > img{
+  width: 150px;
+  height: 150px;
+}
+
+.page-experience > .row > .row > div > img{
+  width: 150px;
+  height: 150px;
+}
+
+.card-project > img{
+  width: 80%;
+}
+
+.header-page-two{
+  margin-top: 36px;
+}
 }
 
 @media (max-width: 768px) {
 .page-one {
-  padding-top: 1cm !important;
-  padding-bottom: 1cm !important;
+  padding-top: 2cm !important;
+  padding-bottom: 1.2cm !important;
   display: flex !important;
   flex-direction: column-reverse;
+}
+
+.header-page-two {
+  margin: 40px 0px 40px;
+  border: 2px solid black;
+}
+
+.skill .row .col-sm-2 .image-skill{
+  height: 150px;
+  width: 150px;
+}
+
+.page-skill{
+  margin: 20px 0px 48px !important;
+}
+
+.page-experience{
+  margin: 20px 0px 48px !important;
+}
+
+.page-project{
+  margin: 20px 0px 48px !important;
 }
 
 .content-greetings {
@@ -94,6 +189,10 @@ body {
   font-size: 20pt;
   text-align: center !important;
   margin-top: 0.5cm !important;;
+}
+
+.head-page-three{
+  padding: 35px 0px 8px;
 }
 }
 
@@ -143,15 +242,63 @@ body {
   font-family: 'Poppins';
   font-weight: bold;
   font-size: 20pt;
-}
-
-.header-page-two {
   border: 2px solid black;
 }
 
-.page-experience {
+.header-page-three {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 20pt;
+    border: 2px solid black;
+}
+
+.page-skill {
+  margin: 32px 0px 32px;
   background-color: #423e3b;
   border-radius: 5px;
+}
+
+.page-experience {
+  margin: 32px 0px 32px;
+  background-color: #423e3b;
+  border-radius: 5px;
+}
+
+.page-project {
+  margin: 35px 0px 32px;
+  background-color: #423e3b;
+  border-radius: 5px;
+}
+
+.skill .row{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.skill > .row > .col-sm-2 {
+  display: inline-block;
+  float: none;
+}
+
+.project .row{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.project > .row > .col-sm-3 {
+  display: inline-block;
+  float: none;
+}
+
+.project > .row > .col-sm-3 > a {
+  text-decoration: none !important;
+}
+
+.card-block {
+  min-height: 300px;
+}
+
+.skill-text {
+  font-family: 'Poppins';
+  color: #ffffff;
 }
 
 .experience-text {
@@ -219,7 +366,6 @@ body {
 .card-project {
   background-color: #616463;
   border-radius: 5px;
-  display: inline-block;
 }
 
 .card-project:hover {
@@ -252,6 +398,10 @@ body {
   font-size: 12pt;
 }
 
-.horizontal-scroll{
-  -webkit-overflow-scrolling: touch;
+.typing-project{
+  white-space: normal;
+}
+
+.content-work{
+  justify-content: center;
 }
